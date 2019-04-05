@@ -1,0 +1,99 @@
+*{margin: 0; padding:0}
+
+
+.form-container{
+    width:300px;
+    height: auto;
+    padding: 20x 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    position: relative;
+}
+
+
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.saharalogo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60;
+    font-family: Impact;
+    text-align: center;
+
+}
+
+.loginlogo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40;
+    font-family: Impact;
+    text-align: center;
+
+}
+
+#pyramid
+{
+    width:270;
+    height:auto;
+}
+
+.ASmallWebsite 
+{
+    background-color:rgb(104, 12, 38);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:White;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+} 
+
+ul.list{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.list li{
+    width:300px;
+    margin-bottom: 7px;
+}
+
+ul.list li input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+ul.list li input[type="button"]{
+    margin-top: 5px;
+    background-color: #4690fb;
+    color: #fff;
+}
+
+.user-img{
+    background:url('user.png') no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position: absolute;
+    top:-60px;
+    left:116px;
+
+}
