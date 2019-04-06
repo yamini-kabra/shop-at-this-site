@@ -1,0 +1,173 @@
+*{margin: 0; padding:0}
+
+
+.form-container{
+    width:300px;
+    height: auto;
+    padding: 20x 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    position: relative;
+}
+
+
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.saharalogo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60;
+    font-family: Impact;
+    text-align: center;
+
+}
+
+.loginlogo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40;
+    font-family: Impact;
+    text-align: center;
+
+}
+
+#pyramid
+{
+    width:270;
+    height:auto;
+}
+
+.ASmallWebsite 
+{
+    background-color:rgb(104, 12, 38);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:White;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.ASmallWebsite2 
+{
+    background-color:rgb(104, 12, 38);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:White;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+} 
+
+ul.list{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.list li{
+    width:300px;
+    margin-bottom: 7px;
+}
+
+ul.list li input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+ul.list li input[type="button"]{
+    margin-top: 5px;
+    background-color: #4690fb;
+    color: #fff;
+}
+
+.user-img{
+    background:url('https://www.mediafire.com/convkey/a04d/93eqmzo17e1ahoyzg.jpg?size_id=4') no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position: absolute;
+    top:-60px;
+    left:116px;
+
+}
+
+.user-img:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+#myInput {
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 60%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    width:60%;
+    align-self: center;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 8px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+  .products{
+      height: 260px;
+      width:auto;
+      padding: 50px;
+      transition: transform .2s;
+      margin: 0 auto;
+  }
+  .products:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .products2{
+    height: 220px;
+    width:auto;
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.products2:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.beroo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
