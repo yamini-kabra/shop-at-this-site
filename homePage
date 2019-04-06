@@ -1,0 +1,96 @@
+<html>
+    <head>
+        
+        <title>Sahara.com</title>
+        <link rel="stylesheet" type="text/css" href="global.css">
+
+    <script>
+    
+
+        function incWidth(x){
+            x.style.width = "330px";
+            x.style.height = "224px";
+        }
+
+        function decWidth(x){
+            x.style.width = "270px";
+            x.style.height = "224px";
+        }
+
+    
+
+        function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+        }
+
+
+    </script>
+
+
+    </head>
+    
+    <body>
+       
+        <img id="pyramid" onmouseover="incWidth(this)" onmouseout="decWidth(this)" class="center" src="http://www.mediafire.com/convkey/aa11/765z0874n05k10yzg.jpg?size_id=5" > </img>
+        <a class="ASmallWebsite">T<small>HE</small> B<small>UGGERS'</small></a>
+        <a class="saharalogo">S<small>AHARA.COM</small></a>
+        <br><br><br><br><br>
+
+
+        
+
+              
+         <div><pre><font size="4px" face="Impact">                                                                                     S<small>EARCH</small>:</font></pre></div>              
+         <input list="products" class="center" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products.." title="Product you want to search for">
+        <datalist id="products">
+            <option value="Pants">
+            </option>
+
+            <option value="Shirts"></option>
+            <option value="Shoes"></option>
+            <option value="Posters"></option>
+        </datalist> 
+         
+         
+         <!-- 
+            <ul id="myUL">
+                <li><a href="#">Adele</a></li>
+                <li><a href="#">Agnes</a></li>
+                       
+                <li><a href="#">Billy</a></li>
+                <li><a href="#">Bob</a></li>
+                        
+                <li><a href="#">Calvin</a></li>
+                <li><a href="#">Christina</a></li>
+                <li><a href="#">Cindy</a></li>
+                </ul>
+                <button type="submit"><i class="fa fa-search"></i></button>
+           
+
+         -->     
+
+       
+
+    <br><br><br> 
+<pre><div class="ASmallWebsite2">                        S<small>HIRTS</small> :</div>
+<img class="products" title="Beloo Shirt" src="https://www.clothes2order.com/images/BC_Safran_Pique_Polo_Shirt_Model-1150-478.jpg"></img>  <img title="Grey one!" class="products" src="https://cdn.shopify.com/s/files/1/1970/8515/products/Grey_Tshirt_01_1024x1024.jpg?v=1507904930"> </img>  <img title="Blue Shirt but this model's much older than the previous one!" class="products" src="http://apwla.com/wp-content/uploads/64000_main_1.jpg"> </img>  <img title="Safed." class="products" src="https://teetalkies.com/wp-content/uploads/2018/02/fr-12.jpg"> </img><h2 font-family="Impact"> 
+<pre><div class="ASmallWebsite2">                        S<small>HOES</small> :</div>
+<img class="products" title="Shoooo" src="https://evermotion.org/files/model_images/61d4cb66b5661cf7c2c4eae18fe03f53.jpg"></img>  <img title="Shooo Twoo" class="products" src="https://images-na.ssl-images-amazon.com/images/I/61tLCztCwmL._UY395_.jpg"> </img><img title="Leather Wale Booots!" class="products" src="https://magicalshoes24.com/wp-content/uploads/2017/08/buty-minimalistyczne-Magical-Shoes-Alaskan.jpg"></img></pre>
+<br><br><br>
+
+</body>
+</html>    
+
